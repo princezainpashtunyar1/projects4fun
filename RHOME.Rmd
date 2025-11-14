@@ -1,0 +1,28 @@
+---
+title: "R-Home"
+author: "Zain Pashtunyar"
+date: "2025-11-14"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+# R Works with outputs. Without a coding block, you must put these in the Console.
+
+#Calculation and String:
+"Hello world!" 
+# Will print '[1] "Hello world!"'
+5 + 5
+# Will Print 10! '[1] 10'
+
+#This is a code chunk, runnable in an R-Markdown file. Commands here can be run inside the file.
+```{r}
+plot(1:10)
+```
