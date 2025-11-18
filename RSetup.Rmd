@@ -1,0 +1,19 @@
+---
+title: "R-Setup"
+author: "Zain Pashtunyar"
+date: "2025-11-18"
+output:
+  pdf_document: default
+---
+
+##### R Markdown
+
+## R Setup
+
+R-Studio is the single most popular dedicated IDE for R. 
+In Setting up Rstudio, in order to output clean and neat PDF Files, you'll need to type these into the console.
+
+install.packages("tinytex")
+tinytex::install_tinytex()
+
+This isntalls a program called LaTeX (pronounced “lay-tek”) - this will turn our files containing R code into nicely formatted PDFs.
